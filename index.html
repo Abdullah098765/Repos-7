@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script>
+
+      var a = 1
+    document.write(`<table border="1">`)
+
+
+      document.write(`<tr>`)
+
+
+
+document.write(`<th>`)
+
+document.write(`Student Name`)
+
+
+document.write(`</th>`)
+
+document.write(`<th>`)
+
+document.write(`Age`)
+
+
+document.write(`</th>`)
+
+
+
+
+
+
+document.write(`<th>`)
+
+document.write(`class`)
+
+
+document.write(`</th>`)
+
+document.write(`<th>`)
+
+document.write(`Email`)
+
+
+document.write(`</th>`)
+
+document.write(`<tr>`)
+
+
+  
+      
+
+      
+
+for (var i = 1; i <= 10; i++){
+
+  
+  var stu ={
+    studentName:"Alyan" + a++,
+  
+    age: 18 + a++,
+    class: a++,
+    email:a++ + "ssmmhazz@gmail.com"
+  }
+
+
+
+
+document.write(`<tr>`)
+    for (var j = 1; j <= 4; j++){
+
+
+
+
+      if (j === 1){
+
+document.write(`<td>`)
+
+  document.write(`${stu.studentName}`)
+
+
+  document.write(`</td>`)
+}
+      
+else if (j === 2){
+
+document.write(`<td>`)
+
+  document.write(`${stu.age} Years old`)
+
+
+  document.write(`</td>`)
+}
+else if (j === 3){
+
+document.write(`<td>`)
+
+  document.write(`${stu.class} Class`)
+
+
+  document.write(`</td>`)
+}
+else if (j === 4){
+
+document.write(`<td>`)
+
+  document.write(`${stu.email}`)
+
+
+  document.write(`</td>`)
+}
+
+
+
+}
+
+document.write(`</tr>`)
+
+
+
+
+
+
+
+}
+
+document.write(`<table>`)
+// console.log(stu);
+
+
+
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+
+</body>
+</html>
